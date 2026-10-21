@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_">
+      <UniqueIdentifier>{75c4dced-46d6-40ee-a00e-39d9a677f00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_\root">
+      <UniqueIdentifier>{40d0d4c5-1c23-4ad1-922e-b48fdc22c47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_\resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.hpp" />
+    <ClInclude Include="app_interface.hpp" />
+    <ClInclude Include="config_io.hpp" />
+    <ClInclude Include="debug.hpp" />
+    <ClInclude Include="hive.hpp" />
+    <ClInclude Include="main_window.hpp" />
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="pch.h">
+      <Filter>_</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>_\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="version.hpp">
+      <Filter>_</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>_</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>_</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.def">
+      <Filter>_</Filter>
+    </None>
+    <None Include="..\..\CONTRIBUTING.md">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\CREDITS.md">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\README.md">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\.gitattributes">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\.gitignore">
+      <Filter>_\root</Filter>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Filter>_\root</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>_\resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

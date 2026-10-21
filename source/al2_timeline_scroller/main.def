@@ -1,0 +1,7 @@
+﻿EXPORTS
+	RequiredVersion
+	InitializeLogger
+	InitializeConfig
+	InitializePlugin
+	UninitializePlugin
+	RegisterPlugin
